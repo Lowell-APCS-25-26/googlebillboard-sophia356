@@ -5,7 +5,12 @@ package org.APCSLowell;
 
 public class GoogleBillboard {
     public boolean isPrime(long n) {
-        // Copy and paste your answer from CodingBat appropriatley here.
+        if(num < 2)
+    return false;
+  for(int i = 2; i <= Math.sqrt(num); i++)
+    if(num % i == 0)
+      return false;
+  return true;
         return false;
     }
     public long firstPrimeNumberIn(String n) {
