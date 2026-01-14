@@ -3,7 +3,7 @@
  */
 package org.APCSLowell;
 
-public class GoogleBillboard {
+public class GoogleBillboard {   
     public boolean isPrime(long n) {
         if(n < 2)
             return false;
